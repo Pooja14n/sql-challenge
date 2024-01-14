@@ -37,3 +37,15 @@ For the primary keys, verify that the column is unique. Otherwise, create a comp
 8. List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
 
 
+# Notes
+Initial steps carried out prior to coding are:
+
+WeatherPy a. Dependencies and Setup: i. import matplotlib.pyplot as plt ii. import pandas as pd iii. import numpy as np iv. import requests v. import time vi. from scipy.stats import linregress vii. import random b. Import the OpenWeatherMap API key: i. from api_keys import weather_api_key c. Import citipy to determine the cities based on latitude and longitude i. from citipy import citipy
+
+VacationPy a. Dependencies and Setup i. import hvplot.pandas ii. import pandas as pd iii. import requests iv. from bokeh.models import HoverTool v. hvplot.extension('bokeh') b. import holoviews as hv i. hv.renderer('bokeh').webgl = True c. Import API key i. from api_keys import geoapify_key d. Turn off warning messages i. import warnings warnings.filterwarnings("ignore")
+
+# References
+Referred to various class activity exercises, got support from BCS Learning Assistant, Assistant Instructor, and websites for: Pandas Documentation, Stack Overflow, Matplotlib Documentation, Openweathermap API Documentayion, Geoapify Documentation, Documentation for hvplot.
+
+# Files submitted including this README File
+Folder -> WeatherPy a. output_data folder: i. cities.csv ii. Fig1.png iii. Fig2.png iv. Fig3.png v. Fig4.png b. api_keys.py c. Jupyter Notebooks that contains the main script to run for analysis: i. WeatherPy.ipynb ii. VacationPy.ipynb
