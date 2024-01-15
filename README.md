@@ -12,6 +12,8 @@ This Challenge is divided into three parts: data modeling, data engineering, and
 # Data Modeling
 Inspect the CSV files, and then sketch an Entity Relationship Diagram of the tables. To create the sketch, use a tool like QuickDBDLinks to an external site.
 
+![QuickDBD-EmployeeSQL_DB](https://github.com/Pooja14n/sql-challenge/assets/144713762/a385dc66-98d3-4c94-b360-14855e8936d8)
+
 # Data Engineering
 1. Use the provided information to create a table schema for each of the six CSV files, while specifying the data types, primary keys, foreign keys, and other constraints.
 
@@ -38,14 +40,21 @@ For the primary keys, verify that the column is unique. Otherwise, create a comp
 
 
 # Notes
-Initial steps carried out prior to coding are:
-
-WeatherPy a. Dependencies and Setup: i. import matplotlib.pyplot as plt ii. import pandas as pd iii. import numpy as np iv. import requests v. import time vi. from scipy.stats import linregress vii. import random b. Import the OpenWeatherMap API key: i. from api_keys import weather_api_key c. Import citipy to determine the cities based on latitude and longitude i. from citipy import citipy
-
-VacationPy a. Dependencies and Setup i. import hvplot.pandas ii. import pandas as pd iii. import requests iv. from bokeh.models import HoverTool v. hvplot.extension('bokeh') b. import holoviews as hv i. hv.renderer('bokeh').webgl = True c. Import API key i. from api_keys import geoapify_key d. Turn off warning messages i. import warnings warnings.filterwarnings("ignore")
+Schema Table is created using QuickDBD and then exported as PostgreSQL file, which is then imported on pgAdmin.
 
 # References
-Referred to various class activity exercises, got support from BCS Learning Assistant, Assistant Instructor, and websites for: Pandas Documentation, Stack Overflow, Matplotlib Documentation, Openweathermap API Documentayion, Geoapify Documentation, Documentation for hvplot.
+Referred to various class activity exercises, got support from BCS Learning Assistant, Assistant Instructor, and websites for: PostgreSQL Documentation.
 
 # Files submitted including this README File
-Folder -> WeatherPy a. output_data folder: i. cities.csv ii. Fig1.png iii. Fig2.png iv. Fig3.png v. Fig4.png b. api_keys.py c. Jupyter Notebooks that contains the main script to run for analysis: i. WeatherPy.ipynb ii. VacationPy.ipynb
+Folder -> EmployeesSQL 
+  a. data folder: 
+    i. departments.csv 
+    ii. dept_emp.csv
+    iii. dept_manager.csv 
+    iv. employees.csv
+    v. salaries.csv
+    vi. titles.csv
+  b. EmployeeSQL_DB_Analysis.sql (contains the SQL queries)  
+  c. EmployeeSQL_schema.sql (contains the Schema Table queries)
+  d. QuickDBD-EmployeeSQL_DB.png (contains the Schema Diagram)
+
