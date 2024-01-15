@@ -23,20 +23,28 @@ For the primary keys, verify that the column is unique. Otherwise, create a comp
 
 # Data Analysis
 1. List the employee number, last name, first name, sex, and salary of each employee.
+![1](https://github.com/Pooja14n/sql-challenge/assets/144713762/fedc1d08-cff5-4490-91c4-6740843595b0)
 
 2. List the first name, last name, and hire date for the employees who were hired in 1986.
+![2](https://github.com/Pooja14n/sql-challenge/assets/144713762/ef92e57c-3a14-42cf-82da-b78b706fabca)
 
 3. List the manager of each department along with their department number, department name, employee number, last name, and first name.
+![3](https://github.com/Pooja14n/sql-challenge/assets/144713762/89f3473b-1d7c-422d-a5d2-96f813a6592c)
 
 4. List the department number for each employee along with that employee’s employee number, last name, first name, and department name.
+![4](https://github.com/Pooja14n/sql-challenge/assets/144713762/1f7831c5-65ea-4f31-9e54-d7216d719aa5)
 
 5. List first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B.
+![5](https://github.com/Pooja14n/sql-challenge/assets/144713762/e9f79c35-c3dc-4d03-82f7-5840087f70e0)
 
 6. List each employee in the Sales department, including their employee number, last name, and first name.
+![6](https://github.com/Pooja14n/sql-challenge/assets/144713762/022c8650-6e76-4854-8f47-dc4ebb463098)
 
 7. List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
+![7](https://github.com/Pooja14n/sql-challenge/assets/144713762/0efe6722-654c-490d-9444-e1e51b50a3e3)
 
 8. List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
+![8](https://github.com/Pooja14n/sql-challenge/assets/144713762/1e75de8e-3b00-4f08-9a04-7474894165db)
 
 
 # Notes
